@@ -12,10 +12,8 @@ hal yang akan dipelajari
 
 Chapters:
 - 0:00 Pembukaan
-- 0:20 review hari 1-3
-- 1:18 Enum
-- 13:04 Ringkasan
-
+- 0:23 review hari 1-3
+- 1:35 Enum
 
 ## Chapter 1. PEMBUKAAN
 
