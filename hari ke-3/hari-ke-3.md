@@ -1,20 +1,15 @@
-# HARI KE-3 Tantangan100hari SwiftUI : data type complex
+# HARI KE-3 Tantangan100hari SwiftUI : Type Collection Swift
 
-
-
-## DESCRIPTION
-
-data tipe sederhana, bagian 2
+arrays, set, dictionaries
 
 Chapters:
-0:0 Pembukaan
-1:47 Chitchat receh
-2:44 review hari pertama tentang tipe sederhana 
-7:11 Collection type
-7:11 Collection type:Array
-7:11 Collection type:Set
-7:11 Collection type:Dictionaries
-9:45 Ringkasan
+- 0:00 Pembukaan
+- 0:20 review hari pertama tentang tipe sederhana 
+- 1:18 Collection type
+- 6:31 Collection type:Array
+- 7:11 Collection type:Set
+- 11:48 Collection type:Dictionaries
+- 13:04 Ringkasan
 
 
 ## Chapter 1. PEMBUKAAN
@@ -108,7 +103,7 @@ mahasiswa.remove(at: 1)
 
 sintak 
 
-Set<Element> dimana Element adalah tipe 
+```Set<Element> dimana Element adalah tipe ```
 
 membuat Set kosong 
 
@@ -180,5 +175,6 @@ namesOfIntegers[16] = "sixteen"
 var airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
 
 var airports = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
+```
 
 
