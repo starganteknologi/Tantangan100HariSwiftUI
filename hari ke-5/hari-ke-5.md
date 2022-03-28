@@ -1,10 +1,25 @@
-# Operator
+# Operator dan Pernyataan Kondisi
+
 
 “An operator is a special symbol or phrase that you use to check, change, or combine values”
 
 Excerpt From
 The Swift Programming Language (Swift 5.6)
 Apple Inc.
+
+
+Chapters:
+0:00 Pembukaan
+0:19 Operator
+3:43 Operasi Aritmatika
+4:18 Operator Compound
+5:32 Operator Perbandingan
+6:34 Pernyataan Kondisi
+14:41 Switch
+16:36 range operator
+21:05 iterasi dictionary
+23:06 review hari ini
+
 
 ## Terminologi
 
@@ -74,6 +89,11 @@ var x = 12
 //x  = x + 6
 x += 6
 
+x *= 6
+x /= 2 
+
+
+
 ## Operator perbandingan
 
 swift mendukung operator perbandingan sebagai berikut 
@@ -128,11 +148,6 @@ if ikn == "nusantara" && tahun >= 2024 {
 	print("upcaranya masih di jakarta")
 }
 
-let angka
-
-if angka == 1 { 
-	
-}
 ```
 
 ## perbandingan pada tupel
@@ -186,6 +201,104 @@ let n = 0
 m ?? n
 
 let mval = m != nil ? m! : n
+
+## Switch 
+
+switch berguna untuk pernyataann kondisi dengan 1 kondisi atau lebih, lebih mudah terbaca daripada "IF" jika kondisinya banyak
+
+
+```Swift
+let makanan = "soto ayam"
+
+switch makanan {
+	case "rawon":
+		print("rawon setan tunjungan maknyus")
+	case "sop":
+		print("sop pake jeruk ada asem2nya seger")
+	case let x where x.hasPrefix("soto"):
+		print("\(x) mantap bener")
+	default:
+		print("semua makanan masuk gan")	
+}
+```
+
+## Range Operator / Operator Rentang
+
+a nilai awal
+b nilai akhir
+
+rentang tertutup
+```
+// a...b 
+
+for angka in 1..<15 {
+        print ("angka \(angka)")
+}
+```
+
+rentang setengah terbuka
+```
+// a..<b 
+
+
+for angka in 1..<15 {
+        print ("angka \(angka)")
+}
+
+let ibukota = ["jakarta","bandung","yogyakarta","semarang","surabaya"]
+let count = ibukota.count
+for i in 0..<count {
+    print("ibukota \(i + 1) is called \(ibukota[i])")
+}
+
+```
+
+rentang sebelah 
+
+```
+// a...  
+// ...b  
+
+
+for kota in ibukota[3...] {
+	print(kota)
+}
+
+
+for kota in ibukota[...3] {
+	print(kota)
+}
+
+```
+
+rentang setengah terbuka sebelah 
+
+```
+for kota in kotaa[..<3] {
+	print(kota)
+}
+```
+
+## iterasi pada dictionary
+
+```
+
+let bilanganMenarik = [
+    "Prima": [2, 3, 5, 7, 11, 13, 17],
+    "Fibonacci": [1, 1, 2, 3, 5, 8],
+    "Kuadrat": [1, 4, 9, 16, 25],
+]
+var terbesar = 0
+for (key, bilangan) in bilanganMenarik {
+    print(key)
+    for angka in bilangan {
+        if angka > terbesar {
+            terbesar = angka
+        }
+    }
+}
+print(terbesar)
+```
 
 
 

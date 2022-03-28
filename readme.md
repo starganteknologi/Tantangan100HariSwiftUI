@@ -34,6 +34,6 @@ GOAL
 
 3. berbagi pengalaman dan tantangan di youtube
 
-
+28
 
  
