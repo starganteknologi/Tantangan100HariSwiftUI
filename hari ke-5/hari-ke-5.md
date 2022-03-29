@@ -16,27 +16,29 @@ Chapters:
 21:05 iterasi dictionary
 23:06 review hari ini
 
-keterangan lebih lengkap dapat dilihat di 
+keterangan lebih lengkap dapat dilihat di
 
 https://github.com/starganteknologi/Tantangan100HariSwiftUI/blob/main/hari%20ke-5/hari-ke-5.md
 
-tagar: 
+tagar:
 
 #swiftui #ngodingbarengstargan #iosdeveloper
+
+link youtube : <https://youtu.be/0VvnRNC_NKA>
 
 
 ## Terminologi
 
 Operators terdiri atas unary, binary, or ternary:
 
-- Unary operators yaitu operasi atas satu target 
-cth (-a). 
-Unary prefix operaator yang muncul sebelum target 
+- Unary operators yaitu operasi atas satu target
+cth (-a).
+Unary prefix operaator yang muncul sebelum target
 unary postfix operators muncul setelah target (such as b!).”
 
 - Binary operators yaitu operasi atas dua target + - * / %
 
-- Ternary operators beroperasi pada 3 target. 
+- Ternary operators beroperasi pada 3 target.
 cth ternary conditional operator (a ? b : c).”
 
 ## unary minus operator
@@ -64,7 +66,7 @@ let (x, y) = (1, 2)
 
 //penambahan
 
-1 + 2 
+1 + 2
 
 //operator + juga mendukung penggabungan string
 
@@ -72,7 +74,7 @@ let (x, y) = (1, 2)
 
 3 - 4
 
-//perkalian 
+//perkalian
 
 5 * 6
 
@@ -81,26 +83,26 @@ pembagian
 7 / 8
 ```
 
-## Modulus operator 
+## Modulus operator
 
-Modulus operator **%** adalah operator untuk menghitung sisa hasil pembagian 
+Modulus operator **%** adalah operator untuk menghitung sisa hasil pembagian
 
 5 % 3
 
 ## Operator compound/penggabungan
 
-var x = 12 
+var x = 12
 //x  = x + 6
 x += 6
 
 x *= 6
-x /= 2 
+x /= 2
 
 
 
 ## Operator perbandingan
 
-swift mendukung operator perbandingan sebagai berikut 
+swift mendukung operator perbandingan sebagai berikut
 
 let a = 7
 let b = 9
@@ -109,7 +111,7 @@ sama dengan a == b
 
 tidak sama dengan a != b
 
-lebih besaar a > b 
+lebih besaar a > b
 
 lebih kecil b < a
 
@@ -132,12 +134,12 @@ let ikn = "nusantara"
 
 if ikn == "nusantara" {
 	print(" yeah ayo kita pindah ke \(ikn)")
-} else { 
+} else {
 	print("bukan ibu kota baru")
 }
 ```
 
-### pernyataan kondisi dengan lebih dari satu kondisi menggunakan Operator Logika 
+### pernyataan kondisi dengan lebih dari satu kondisi menggunakan Operator Logika
 
 logika BUKAN !a
 logika DAN a && b
@@ -148,7 +150,7 @@ let tahun = 2024
 
 if ikn == "nusantara" && tahun >= 2024 {
 	print(" upacara bendera di kota baru")
-} else { 
+} else {
 	print("upcaranya masih di jakarta")
 }
 
@@ -168,14 +170,14 @@ jc > ("cu yun","fa")
 
 ("rumah", true) < ("apartemen", false)  // Error karena operator < tidak bisa membandingkan nilai Boolean”
 
-## Ternary operators 
+## Ternary operators
 
 ``` Swift
 a ? b : c
 ```
 
-dibaca jika a bernilai benar maka b jika tidak maka c 
-ini adalah kependekan dari penulisan 
+dibaca jika a bernilai benar maka b jika tidak maka c
+ini adalah kependekan dari penulisan
 
 if a {
 	b
@@ -206,7 +208,7 @@ m ?? n
 
 let mval = m != nil ? m! : n
 
-## Switch 
+## Switch
 
 switch berguna untuk pernyataann kondisi dengan 1 kondisi atau lebih, lebih mudah terbaca daripada "IF" jika kondisinya banyak
 
@@ -222,7 +224,7 @@ switch makanan {
 	case let x where x.hasPrefix("soto"):
 		print("\(x) mantap bener")
 	default:
-		print("semua makanan masuk gan")	
+		print("semua makanan masuk gan")
 }
 ```
 
@@ -233,7 +235,7 @@ b nilai akhir
 
 rentang tertutup
 ```
-// a...b 
+// a...b
 
 for angka in 1..<15 {
         print ("angka \(angka)")
@@ -242,7 +244,7 @@ for angka in 1..<15 {
 
 rentang setengah terbuka
 ```
-// a..<b 
+// a..<b
 
 
 for angka in 1..<15 {
@@ -257,7 +259,7 @@ for i in 0..<count {
 
 ```
 
-rentang sebelah 
+rentang sebelah
 
 ```
 // a...  
@@ -275,7 +277,7 @@ for kota in ibukota[...3] {
 
 ```
 
-rentang setengah terbuka sebelah 
+rentang setengah terbuka sebelah
 
 ```
 for kota in kotaa[..<3] {
@@ -303,6 +305,3 @@ for (key, bilangan) in bilanganMenarik {
 }
 print(terbesar)
 ```
-
-
-
