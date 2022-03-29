@@ -16,13 +16,13 @@ tagar
 link youtube : https://youtu.be/J_KYBKT97GY
 
 Chapters:
-0:10 looping for-in loop
-15:55 rentang tertutup dengan interval
-17:33 While loop (while dan repeat-while)
-18:41 Ular tangga stargan
-29:26 continue dan break dari loop
-37:55 mencari kelipatan persekutuan kecil menggunakan looping
-41:17 simpat ke git
+- 0:10 looping for-in loop
+- 15:55 rentang tertutup dengan interval
+- 17:33 While loop (while dan repeat-while)
+- 18:41 Ular tangga stargan
+- 29:26 continue dan break dari loop
+- 37:55 mencari kelipatan persekutuan kecil menggunakan looping
+- 41:17 simpat ke git
 
 ## for-in loop
 
