@@ -1,11 +1,7 @@
 # Operator dan Pernyataan Kondisi
 
 
-“An operator is a special symbol or phrase that you use to check, change, or combine values”
-
-Excerpt From
-The Swift Programming Language (Swift 5.6)
-Apple Inc.
+Operator adalah sebuah simbol khusus yang dapat digunakan untuk memeriksa, mengubah atau menggabungkan nilai
 
 
 Chapters:
@@ -19,6 +15,14 @@ Chapters:
 16:36 range operator
 21:05 iterasi dictionary
 23:06 review hari ini
+
+keterangan lebih lengkap dapat dilihat di 
+
+https://github.com/starganteknologi/Tantangan100HariSwiftUI/blob/main/hari%20ke-5/hari-ke-5.md
+
+tagar: 
+
+#swiftui #ngodingbarengstargan #iosdeveloper
 
 
 ## Terminologi
