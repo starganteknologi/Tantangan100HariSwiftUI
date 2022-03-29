@@ -2,10 +2,34 @@
 
 Selamat Datang di hari ke-6 Tantangan100hari SwiftUI bersama Stargan
 
-## for-in loop 
+
+Pembelajaran hari ini tentang Looping di Swift
+kita akan mengupas tentang for-in loop, while, repeat-while
+
+kemudian kita juga berbicara tentang bagaimana untuk skip iteration pada loop menggunakan continue dan break
+
+contoh kode loop kali ini lebih menantang dengan menggabungkan skill yang kita pelajari selama 6 hari ini. kita akan implementasikan dalam menyelesaikan permainan ular tangga dan menghitung kelipatan persekutuan terkecil
+
+tagar
+#SwiftUI #ngodingbarengStargan #iOSdeveloper
+
+link youtube : https://youtu.be/J_KYBKT97GY
+
+Chapters:
+0:10 looping for-in loop
+15:55 rentang tertutup dengan interval
+17:33 While loop (while dan repeat-while)
+18:41 Ular tangga stargan
+29:26 continue dan break dari loop
+37:55 mencari kelipatan persekutuan kecil menggunakan looping
+41:17 simpat ke git
+
+## for-in loop
 
 for-in loop untuk iterasi arrays, dictionaries, range, string dan sekuence lainnya
 
+tagar
+#SwiftUI #ngodingbarengStargan #iosDevelopment
 
 ```swift
 
@@ -49,8 +73,7 @@ for kota in ibukota[..<3] {
 	print(kota)
 }
 
-// jika kita tidak memerlukan nilai dari sekuence, kita bisa 
-
+// jika kita tidak memerlukan nilai dari sekuence, kita bisa
 // abaikan nilainya dengan menggunakan undersscore _
 var iterasiKe = 0
 for _ in ibukota {
@@ -58,7 +81,7 @@ for _ in ibukota {
     print("putaran ke \(iterasiKe)")
 }
 
-let angkaPokok = 2 
+let angkaPokok = 2
 let pangkat = 5
 var jawaban = 1
 
@@ -68,7 +91,7 @@ for _ in 1...pangkat {
 print("\(angkaPokok) pangkat \(pangkat) adalah \(jawaban)")
 
 
-// looping dengan nilai interval 
+// looping dengan nilai interval
 
 
 var kodeGenap:[Int] = []
@@ -83,13 +106,13 @@ var kodeHuruf:[String] = []
 for kode in stride(from:0, to:maksimumKode, by: intervalPengkodean ){
     var kodeBaru = String(kode)
     kodeBaru.insert(contentsOf: "00000", at: kodeBaru.startIndex)
-    
+
     let len = kodeBaru.count
     let selisih = len - 5
     for _ in 0..<selisih {
         kodeBaru.remove(at: kodeBaru.startIndex)
     }
-    
+
 //    let range = kodeBaru.startIndex..<kodeBaru.index(kodeBaru.startIndex, offsetBy: 2)
 //    kodeBaru.removeSubrange(range)
 
@@ -100,9 +123,9 @@ print(kodeHuruf)
 
 // rentang tertutup dengan interval
 
-let interval4 = 5
+let interval5 = 5
 let includeMaksimumKode = 35
-for kode in stride(from: 10, through: includeMaksimumKode, by: interval4) {
+for kode in stride(from: 10, through: includeMaksimumKode, by: interval5) {
     print(kode)
 }
 ```
@@ -112,7 +135,7 @@ for kode in stride(from: 10, through: includeMaksimumKode, by: interval4) {
 - while mengevaluasi kondisi di awal loop
 - repeat-while mengevaluasi kondisi di akhir loop
 
-bentuk umum while 
+bentuk umum while
 
 while kondisi {
 	//pernyataaan
@@ -180,7 +203,7 @@ print("FINISH")
 ## Bagaimana cara untuk melewati/skip loop menggunakan break dan continue
 
 
-### continue digunakan untuk melewati kode dalam satu iterasi 
+### continue digunakan untuk melewati kode dalam satu iterasi
 
 ```Swift
 let arrayOnderdil = ["QZ030469","ME013307","ME035829","ME515796","ME971553","ME017246","ML150003","MZ320389","MK585622A"]
@@ -221,8 +244,8 @@ for filename in filenames {
 mencari kelipatan persekutaan terkecil KPK
 
 ```Swift
-let bilangan1 = 7
-let bilangan2 = 8
+let bilangan1 = 57
+let bilangan2 = 18
 var kpk:Int?
 
 for i in 1...1_000_000 {
@@ -243,12 +266,9 @@ break dan continue merupakan bagian dari control transfer statement
 
 kontrol transfer merubah urutan  eksekusi kode dengan memindahkan kontrol dari satu bagian kode ke bagian lainnya. terdiri atas
 - continue
-- break 
+- break
 - fallthrough
 - return
 - throw
 
 kita akan membahas transfer control statement pada kesempatan berikutnya
-
-
-
