@@ -2,7 +2,9 @@
 
 Selamat Datang di hari ke-7 Tantangan100hari SwiftUI bersama Stargan
 
-Tantangan100hari SwiftUI adalah sebuah program untuk belajar swiftUI dalam 100 hari
+Link youtube : <https://youtu.be/0fAYPZpOnmk>
+
+Tantangan100hari SwiftUI adalah sebuah program untuk belajar SwiftUI dalam 100 hari
 
 Setiap hari kita akan belajar paling lama 1 jam tentang satu topik dalam Swift dan SwiftUI
 
@@ -19,6 +21,14 @@ analisa proyek-proyek sistem informasi, coding mengkoding, mengelola database
 
 Chapters
 0:00 Pembukaan
+1:23 mendefinisikan fungsi
+5:40 Fungsi multiple parameter
+9:15 berapa batasan jumlah parameter pada fungsi ?
+10:00 Label parameter
+13:38 Kapan memakai label parameter
+27:11 commit git
+28:34 multiple return value optional
+37:44 parameter variadic
 
 
 ## Definisi
@@ -28,6 +38,8 @@ Fungsi adalah sebuah blok kode program yang menjalankan fungsi tertentu. blok ko
 sintak Swift cukup fleksible dengan bentuk sederhana tanpa parameter hingga bentuk yang kompleks multiparameter.
 
 setiap fungsi Swift mempunyai tipe, terdiri atas tipe parameter dan tipe kembalian fungsi.
+
+Tagar #SwiftUI #Swift #iosdeveloper #ngodingbarengstargan
 
 ## cara mendefinisikaan fungsi dan pemanggilannya
 
@@ -225,4 +237,4 @@ hitungRerata(1,2,3,5.1,6,1)
 ```
 
 
-tagar: #swiftui #ngodingbarengstargan #iosdeveloper
+tagar: #SwiftUI #ngodingbarengstargan #iosdeveloper
