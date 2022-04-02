@@ -2,7 +2,7 @@
 
 Selamat Datang di hari ke-9 Tantangan100hari SwiftUI bersama Stargan
 
-Link youtube : https://youtu.be/epm5RWhtMGo
+Link youtube : https://youtu.be/6UV5E4Umsks
 
 Tantangan100hari SwiftUI adalah sebuah program untuk belajar SwiftUI dalam 100 hari
 
