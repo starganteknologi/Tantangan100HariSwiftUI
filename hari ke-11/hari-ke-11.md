@@ -13,6 +13,9 @@ bagikan pengelaman belajar anda di media sosial, rayakan pengetahuan baru anda
 
 pastikan anda subscribe channel stargan untuk mendapatkan update setiap hari selama 100 hari
 
+<https://www.youtube.com/channel/UCLk_BuhUhc70L0XAZ3C0McQ>
+
+
 hari ini kita akan meneruskan topik kita tentang struct dan class
 
 Chapters:
