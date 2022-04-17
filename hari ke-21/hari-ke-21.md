@@ -1,6 +1,14 @@
 # Membuat aplikasi tebak batik
 
 
+Chapters
+00:00 Pembukaan
+00:15 Copy gambar ke Assets
+04:46 Membuat background color pada ZStack
+07:09 Membuat fungsi
+10:32 Membuat Alert
+13:07 Styling Aplikasi
+
 ## step 1
 
 copy gambar batik ke Assets
